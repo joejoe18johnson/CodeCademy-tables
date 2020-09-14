@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1>Creating & Styling Tables</h1>
+    </nav>
+    <main>
+        <section class="html_tables">
+            <h2>Jump to:</h2>
+            <ul>
+                <a href="#table-tags">
+                    <li>Table Tags</li>
+                </a>
+                <a href="#table-attributes">
+                    <li> Table Attributes</li>
+                </a>
+                <a href="#styling-tables">
+                    <li>Styling Tables in CSS (Cascading Style Sheets)</li>
+                </a>
+            </ul>
+        </section>
+        <section class="main-content">
+            <table id="table-tags" class="table-content">
+
+                <h1>&lt;Table Tags&gt;</h1>
+                <p>HTML table allows you to arrange data into rows and columns. They are commonly used to display tabular data like product listings, customer's details, financial reports, and so on. You can create a table using the &lt;table&gt; element.
+                    Inside the &lt;table&gt; element, you can use the &lt;td&gt;elements to create rows, and to create columns inside a row you can use the &lt; elements. You can also define a cell as a header for a group of table cells using the &lt;th&gt;
+                    element.
+                </p>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody class="html_table">
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table Foot</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <br>
+            <!--Table Attributes-->
+            <table id="table-attributes" class="table-content">
+
+                <h1>&lt;Table Attributes&gt;</h1>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody class="html_table">
+                    <tr>
+                        <td>colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a &lt;td&gt; element should span.</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a &lt;td&gt; element should span.</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+            <br>
+
+            <!--CSS Styling tables-->
+            <section id="styling-tables"></section>
+            <h1>&#123;Styling Tables&#125;</h1>
+            <p>Early on in web development, HTML tables were very basic and lacked extensive styling options. Today, however, most tables are styled to create a more aesthetically pleasing and functional experience for users. CSS provides a number of attributes
+                for styling tables. These attributes allow you to—among other things—separate cells in a table, specify table borders, and specify the width and height of a table. This tutorial will discuss, with examples, how to style a table using CSS.
+                By the end of this tutorial, you’ll be an expert at it. CSS is used to style tables. While the table above displays data in an organized way, it is written in plain HTML (there are no styles present). By using CSS, you can make tables
+                more aesthetically pleasing. There are many CSS functions you can use to style a table. Using CSS, you can:
+            </p>
+
+            <ul class="css-list">
+                <li>Add borders</li>
+                <li>Collapse borders</li>
+                <li>Adjust border spacing</li>
+                <li>Adjust the width and height of a table</li>
+                <li>Add padding</li>
+                <li>Align text horizontally</li>
+                <li>Align text vertically</li>
+                <li>Add a mouse-over (hover) feature</li>
+                <li>Define cell colors</li>
+                <li>Define how empty cells will display</li>
+
+            </ul>
+            <h4>learn more about styling tables at
+                <a href="https://css-tricks.com/complete-guide-table-element/">CSS Tricks</a></h4>
+
+        </section>
+
+        </section>
+
+    </main>
+    <footer>
+        <p> Done by : Johannes Johnson | &#169; 2020. All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

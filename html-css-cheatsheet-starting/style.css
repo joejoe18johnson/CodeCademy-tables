@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+
+nav {
+    background-color: rgb(138, 28, 240);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav h1 {
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+}
+
+.main-content h1 {
+    color: rgb(138, 28, 240);
+}
+
+.html_tables li {
+    color: rgb(138, 28, 240);
+}
+
+.html_tables h2 {
+    font-size: 19px;
+}
+
+.table-content {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 20 px;
+    min-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 10px 41px 0px rgba(176, 140, 242, 1);
+    -moz-box-shadow: 2px 10px 41px 0px rgba(176, 140, 242, 1);
+    box-shadow: 2px 10px 41px 0px rgba(176, 140, 242, 1);
+}
+
+.table-content th {
+    background-color: rgb(138, 28, 240);
+    text-align: left;
+    color: white;
+}
+
+.table-header tr {
+    color: bue;
+}
+
+.table-content th,
+.table-content td {
+    padding: 12px;
+}
+
+.table-content tbody tr {
+    border-bottom: 1px solid rgba(219, 219, 219, 0.534);
+}
+
+.table-content tr:nth-child(even) {
+    background-color: rgba(220, 205, 235, 0.295);
+}
+
+.table-content tbody tr:last-of-type {
+    border-bottom: 4px solid rgb(138, 28, 240);
+}
+
+footer {
+    color: white;
+    background-color: rgb(138, 28, 240);
+    padding: 15px;
+    border-radius: 10px;
+}
